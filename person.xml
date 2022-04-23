@@ -3,17 +3,17 @@
         "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
 <beans>
     <!--
-    <bean id="personService" class="PersonServiceImpl">
+    <bean id="personService" class="DI.PersonServiceImpl">
         <property name="name">
             <value>홍길동</value>
         </property>
     </bean>
     -->
-      <bean id="personService1" class="PersonServiceImpl">
+      <bean id="personService1" class="DI.PersonServiceImpl">
            <constructor-arg   value="이순신" />
       </bean>
 
-      <bean id="personService2" class="PersonServiceImpl">
+      <bean id="personService2" class="DI.PersonServiceImpl">
           <constructor-arg   value="손흥민"  />
           <constructor-arg   value="23"  />
       </bean>

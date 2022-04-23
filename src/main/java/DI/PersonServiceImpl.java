@@ -1,3 +1,5 @@
+package DI;
+
 public class PersonServiceImpl implements PersonService {
     private String name;
     private int age;
